@@ -1,0 +1,37 @@
+#equipe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+}
+
+.row{
+    margin-bottom: 5%;
+}
+
+.img-fluid{
+    width: 30px;
+}
+
+.btn-primary{
+    background-color: #030;
+}
+
+.btn-primary:hover{
+    background-color: #050;
+}
+
+.card{
+    width: 18rem;
+    padding: 3% 0%;
+    background-color: #fff;
+    box-shadow: 0 0 1em#9b9;
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+}
+
+.card:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);   
+}

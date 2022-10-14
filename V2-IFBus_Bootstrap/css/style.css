@@ -1,0 +1,26 @@
+#lista{
+    width: 80%;
+    margin: 0 10%;
+}
+
+li > div > div > img{
+    width: 50%;
+    height: 50%;
+    margin: 5% 25%;
+}
+
+li > div > div > p{
+    width: 100%;
+    height: 10%;
+    margin: 25% 0;
+}
+
+#lista_title{
+    background-color: #040;
+}
+
+#titulo{
+    background-color: #9b9;
+    color: rgb(226, 235, 226);
+    width: 100%;
+}

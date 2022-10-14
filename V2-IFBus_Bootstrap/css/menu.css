@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{padding-top: 100px;}
+
+nav{
+    background: #030;
+}
+
+.navbar{
+    --bs-navbar-toggler-border-color: transparent;
+}
+
+.navbar:focus{
+    box-shadow: #fff;
+}
+
+.navbar-toggler{
+    --bs-navbar-color: #fff;
+    --bs-border-width: 0px;
+}
+
+.navbar-toggler:focus{
+    --bs-navbar-toggler-focus-width: 0px;
+}
+
+img.menuHamburguerLogo{
+    width: 1.5em;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+}
+
+img.menuHamburguerLogo:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);    
+}
+
+#menu{
+    position:fixed;
+    width: 100%;
+    height: 50px;
+    top: 0%;
+    z-index: 99;
+}
+
+.navbar-expand-sm{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#imgLogoMenu{
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+}
+
+img#imgLogoMenu:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ 
+}
+
+a.nav-link:link{
+   color: #fff; 
+}
+
+a.nav-link:visited{
+    color: #fff;
+}
+
+a.nav-link:hover{
+    color: #9b9;
+}
+
+ul#navbarSupportedContent{
+justify-content: flex-end;
+}
+
+div.col-4{
+    border: #fff solid 1px;
+    align-content: flex-end;
+}
