@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #fff;
+}
+
+.imagem{
+    width: 100%;   
+}
+
+table#corpo{
+    margin-top: 1%;
+    
+}
+
+.nomeEquipe, .redesSociaisEquipe{
+    color: #271;
+}
+
+.contatoEquipe{
+    text-align: center;
+}
+
+.infoEquipe{
+    text-align: justify;
+}
+
+img.redesSociais{
+    width: 10%;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.1s;
+}
+
+img.redesSociais:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+hr.linhaEmbaixo{
+    border-bottom: 5px solid #7c3;
+}
+
+td#usuario{
+    text-align: center;
+    padding-left: 5%;
+}

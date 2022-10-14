@@ -1,0 +1,51 @@
+*{
+    margin: auto;
+}
+
+#menu{
+    position: fixed;
+    background-color: #dfa;
+    width: 100%;
+}
+
+table.menu{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+a:link{
+    color: #7c3;
+}
+a:visited{
+    color: #271;
+}
+a:hover{
+    color: #c30;
+}
+
+img#logo{
+    width:130px;
+    max-width: 100%;
+}
+
+header img#logo{
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.1s;
+}
+
+header img#logo:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+hr.hrMenu{
+    border: 3px solid #7c3;
+}

@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@700&display=swap');
+#menu{
+    position: fixed;
+    background-color: #dfa;
+    width: 100%;
+}
+
+/*Início do código*/
+
+body main{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+#title{
+    color: #271;
+    margin-bottom: 5%;
+    margin-top: 2.5%;
+    text-align: left;
+    max-width: 80%;
+}
+
+.subtitle{
+    color: #271;
+    text-indent: 10px;
+    margin-top: 2.5%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.box{
+    display: flex;
+}
+
+.line{
+    border: 2px solid #271;
+    width: 70%;
+}
+
+footer .subtitle{
+    color: #7c3;
+}
+
+main .image_pg{
+    width:130px;
+    padding: 2%;
+    float: left;
+
+}
+
+/*Links das redes*/
+.rodape #container_pe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #dedede;
+    margin-bottom: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.rodape a{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: wheat;
+    color: green;
+    margin: 0 6px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 24px;   
+}
+.rodape a:hover{
+    background: #7c3;
+    color: wheat;
+}
+
+.rodape a i {
+    transition: o.4s all;
+}
+.rodape a:hover > i{
+    transform:scale(1.6) rotate(25deg);
+}
+
+
+/*tabela de versões*/
+#versoes{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td.celulaVersoes{
+    border: 1px solid black;
+    text-align: center;
+}
+
+td.tituloVersoes{
+    background-color: green;
+    font-size: large; 
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+/*menu de redes
+.rodape{
+    position: absolute;
+    top:150%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.rodape a{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: wheat;
+    color: green;
+    margin: 0 6px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 24px;
+}
+.rodape a:hover{
+    background: #7c3;
+    color: wheat;
+}
+
+.rodape a i {
+    transition: o.4s all;
+}
+.rodape a:hover > i{
+    transform:scale(1.6) rotate(25deg);
+
+}
+*/
+/* código original
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{    
+    font-size: 100%;
+    background-color: #fff;
+
+
+}
+
+.pg a{
+    text-decoration: none;
+    font-size: large;
+}
+
+.pg a:link{
+    color: #7c3;
+}
+
+.pg a:visited{
+    color: #271;
+}
+
+.pg a:hover{
+    color: #c30;
+}
+
+.pg img{
+    width:130px;
+}
+
+
+.conteudo{
+    margin-bottom:48px ;
+    border-top: 0.4px solid white;  
+}
+
+.conteudoprincipal{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.conteudoprincipalescrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.ifpibus{
+    font-family:'Sarala' , sans-serif;
+    font-weight:400 ;
+    font-size: 64px;
+    color :#FFF2E7;
+}
+.ifpibus1{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.ifpibus4{
+    border-top: 0.4px solid rgb(125, 17, 17);
+    padding-top: 40px;
+    font-weight: 100;
+    font-size: 24px;
+    color :black;
+}
+
+.ifpibus6{
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid rgb(125, 17, 17);
+    background-color: #dedede;
+}
+
+*/

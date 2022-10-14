@@ -1,0 +1,84 @@
+*{
+  margin: auto;
+
+}
+
+.tableContato{
+  margin-top: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #271;
+  background-color: #fff;
+  width: 60%;
+}
+
+#titulo{
+  text-align: center;
+  font-size: 2em;
+}
+
+#linha{
+  margin-top: 2%;
+  height: 5%;
+  border: solid;
+  border-color: #c30;
+}
+
+.secao{
+  text-align: justify;
+  text-indent: 15px;
+  font-size: 1em;
+  width: 90%;
+  height: 200px;
+  margin-right: 20%;
+}
+
+.container{
+  position: relative;
+  width: 100%;
+}
+
+#main{
+  left: 50%;
+  margin-left: -400px; /* A metade de sua largura. */
+  position: absolute;
+  width: 800px; /* O valor que você desejar. */
+  margin-top: 50px;
+  text-align: right;
+}
+
+
+.radio{
+  margin-left: 1em;
+  text-align: left;
+}
+
+fieldset{
+  padding: 10px;
+  border-style: dashed;
+  border-color: #271;
+}
+
+select{
+  float: left;
+}
+
+textarea{
+  width: 100%;
+  margin-top: 5%;
+}
+
+button{
+  float: left;
+  margin-left: 28%;
+  padding: 10px;
+  width: 40%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  margin-bottom: 5%;
+  cursor: pointer;
+  color: white;
+  background-color: #271;
+}
+

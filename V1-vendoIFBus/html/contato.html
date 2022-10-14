@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css"/>
+    <link rel="shortcut icon" type="imagem/png" href="../images/LogoNome.png">
+    <title>Contato</title>
+  </head>
+  <body>
+    <!--Menu-->
+    <header id="menu">
+      <table class="menu">
+        <tr>
+          <td id="icone">
+            <table cellpadding="10%">
+              <tr>
+                <td>
+                  <a href="../html/index.html"><img src="../images/LogoNome.png" alt="ícone" id="logo"></a>
+                </td>
+              </tr>
+            </table >
+          </td>
+          <td>
+            <table cellpadding="30%" align="right">
+              <tr>
+                <td>
+                    <a href="../html/equipe.html">Equipe</a>
+                </td>
+                <td>
+                    <a href="../html/produtos.html">Produtos</a>
+                </td>
+                <td>
+                    <a href="../html/contato.html">Contato</a>
+                </td>
+                <td>
+                    <a href="../html/cadastro.html">Cadastro</a>
+                </td>
+            </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <hr class="hrMenu" />
+    </header>
+    <table class="menu">
+       <tr>
+         <td id="icone">
+          <table cellpadding="10%">
+            <tr>
+              <td>
+                <a href="../html/index.html"><img src="../images/LogoNome.png" alt="ícone" id="logo"></a>
+              </td>
+            </tr>
+          </table >
+        </td>
+        <td>
+          <table cellpadding="30%" align="right">
+            <tr>
+              <td>
+                  <a href="../html/equipe.html">Equipe</a>
+              </td>
+              <td>
+                  <a href="../html/produtos.html">Produtos</a>
+              </td>
+              <td>
+                  <a href="../html/contato.html">Contato</a>
+              </td>
+              <td>
+                  <a href="../html/cadastro.html">Cadastro</a>
+              </td>
+          </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <hr class="hrMenu" />
+    <!--Contato-->
+    <table class="tableContato" align="center">
+      <tr>
+        <td>
+          <table colspan="2" align="center">
+            <tr>
+              <td>
+                <h2 id="titulo">Nos ajude a melhorar!</h2>
+                <hr id="linha">
+                  <main class="container">
+                  <table id="main">
+                  <tr>
+                    <td class="box" valign="top">
+                      <div class="secao">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis quod quos quasi sit ducimus ut tempora enim sed. Error ut odit placeat accusantium odio ducimus exercitationem nostrum officiis perspiciatis non!
+                          <p>&nbsp;</p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cumque ad cupiditate aperiam odio, nemo beatae fugit eum quo, fugiat tempora, itaque temporibus alias laudantium a vitae similique doloremque necessitatibus?
+                          <p>&nbsp;</p>
+                          ou mande-nos um email: projeto.ifbus@gmail.com
+                          *email fictício               
+                        </p>
+                      </div>
+                    </td>
+                    <td class="box">
+                      <form>
+                        <fieldset class="grupo">
+                          <table cellspacing="10px" cellpadding="10px">
+                            <tr>
+                              <td><label for="nome"><strong>Nome:</strong></label></td>
+                              <td><input type="text" name="nome" id="nome" required></td>
+                          </tr>
+                          <tr>
+                            <td><label for="sobrenome"><strong>Sobrenome:</strong></label></td>
+                            <td><input type="text" name="sobrenome" id="sobrenome" required></td>
+                          </tr>              
+                          <tr>
+                            <td><label for="email"><strong>Email:</strong></label></td>
+                            <td><input type="email" name="email" id="email" required></td>                        
+                          </tr>
+                          <tr>
+                            <td>
+                              <label>
+                                <strong>Curso:</strong>
+                              </label>
+                            </td>
+                            <td rowspan="2"> 
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="curso" value="edif" checked>Edificações
+                                </label><br>
+                                <label>
+                                  <input type="radio" name="curso" value="elet">Eletrotécnica
+                                </label><br>
+                                  <label>
+                                    <input type="radio" name="curso" value="info">Informática
+                                  </label>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr> 
+                            </tr>
+                            <tr>
+                              <td>
+                                <label for="serie"><strong>Série:</strong></label>
+                              </td>
+                              <td>
+                                <select name="serie" id="serie" required>
+                                  <option selected disabled value="">Selecione</option>
+                                  <option value="1">1º ano</option>
+                                  <option value="2">2º ano</option>
+                                  <option value="3">3º ano</option>
+                                </select>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan="2">
+                                  <textarea name="sugestao" id="sugestao" cols="30" rows="5" placeholder="Deixe uma sugestão.."></textarea>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan="2"><button type="submit">Enviar</button></td>
+                              </tr>
+                            </table>
+                          </fieldset>
+                        </form>
+                      </td>
+                    </tr>
+                  </table>
+                </main>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin: auto;
+}
+
+div.body{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.title{
+    color: #7c3;
+    text-indent: 10px;
+    margin-bottom: 5%;
+    margin-top: 2.5%;
+    text-align: center;
+}
+
+.desc{
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+.image{
+    width: 20%;
+}
+
+
+#esquerdo{
+    padding-left: 50%;
+    padding-right: 10%;
+}
+#direito, #imgDireito{
+    padding-right: 50%;
+    padding-left: 10%;
+}
+#imgEsquerdo{
+    padding:0% 5% 0% 65%;
+}
+
+.line{
+    border: 2px solid #271;
+    width: 70%;
+}
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+body{ 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: lightgreen;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
+}
+.IMg{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.presente{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.carro{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.cell{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+}
+
+*/
